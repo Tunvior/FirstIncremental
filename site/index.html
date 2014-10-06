@@ -6,6 +6,32 @@
   </head>
 
   <body>
+    <div id="board">
+      <textarea id="log" rows="10" >
+      </textarea>
+    </div>
+
+    <div id="game">
+      <span id="clicks">0</span>
+      <br />
+
+      <button onClick="manualClick(1)">Click Me</button>
+      <br />
+
+      <button onClick="buyCursor()">Buy cursor</button>
+      <br />
+
+      Cursors: <span id="cursors">0</span>
+      <br />
+      Cost: <span id="cursorCost">10</span>
+      <br />
+
+    </div>
+
+    <div id = "save-load">
+      <button onClick="doSave()">Save</button><br />
+      <button onClick="doLoad()">Load</button><br />
+    </div>
 
     <script type="text/javascript" src="main.js"></script>
   </body>
