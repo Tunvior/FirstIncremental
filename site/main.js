@@ -22,7 +22,7 @@ function buyCursor(){
 };
 
 function updateClicks(){
-  document.getElementById("clicks").innerHTML = clicks;
+  document.getElementById("clicks").innerHTML = clicks.toFixed(2);
   //console.log("updated");
 };
 
